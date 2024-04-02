@@ -174,8 +174,7 @@ def game_loop():
             obstacle_speed += 1
 
             # TODO (optional): Increment the obstacle speed at a faster rate for levels 2 and 3.
-
-            obstacle_width += (dodged * 1.2)
+            #obstacle_width += (dodged * 1.2)
 
         if car_y < obstacle_starty + obstacle_height: # This statement will check if the car crashes into an obstacle
             print('y crossover')
